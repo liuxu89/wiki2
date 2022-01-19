@@ -17,6 +17,7 @@ makedocs(;
         "Home" => "index.md",
         "供应链金融" => Any[
             "gongjin/index.md",
+            "gongjin/1.md",
         ],
     ],
 )
