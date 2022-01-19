@@ -1,0 +1,13 @@
+name = "wiki2"
+uuid = "969aacb8-522d-4efd-a55c-05a65c13f83d"
+authors = ["liuxu <liuxu89@mail.ustc.edu.cn> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
