@@ -11,7 +11,7 @@ makedocs(;
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://liuxu89.github.io/wiki2",
-        assets=String[],
+        assets=String["src/custom.css",],
     ),
     pages=[
         "Home" => "index.md",
